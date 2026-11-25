@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reviews – The Beaded Florist</title>
+<meta name="description" content="Handcrafted French beaded flowers made to last. Made in Lahore, Pakistan.">
+<link rel="icon" href="assets/images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="reviews" data-root="">
+<div id="nav"></div>
+<main id="main">
+<div class="wrap page-head"><div class="crumbs"><a href="index.html">Home</a> / Reviews</div><h1>Customer reviews</h1><p class="lead">Photos and words from people who have ordered.</p></div>
+<div class="wrap" style="padding-bottom:50px">
+  <div class="score" id="score" style="margin-top:20px"></div>
+  <div class="grid3" id="rgrid" style="align-items:start"></div>
+  <div class="card" style="margin-top:44px;max-width:640px"><h2 style="font-size:34px;margin-bottom:6px">Share your own review</h2>
+  <p class="muted" style="margin-bottom:18px">Ordered from us? Tell us how it went. The shop owner approves reviews before they appear.</p>
+  <form id="rform" novalidate>
+    <div class="row2"><div class="field"><label for="rn">Your name</label><input id="rn" placeholder="e.g. Hira A." autocomplete="name"></div>
+    <div class="field"><label for="rp">Which design?</label><select id="rp"></select></div></div>
+    <div class="field"><label for="rr">Rating</label><select id="rr"><option value="5">★★★★★ 5 – Loved it</option><option value="4">★★★★ 4 – Very good</option><option value="3">★★★ 3 – Good</option><option value="2">★★ 2 – Could be better</option><option value="1">★ 1 – Disappointed</option></select></div>
+    <div class="field"><label for="rt">Your review</label><textarea id="rt" placeholder="What did you like about it?"></textarea></div>
+    <p class="err hidden" id="rerr" role="alert"></p><button class="btn" type="submit">Send review</button>
+  </form></div>
+</div>
+<section class="band"><div class="wrap"><div><h2>Ready to order your own?</h2><p>Pick your flowers and see the price instantly.</p></div><a class="btn" href="custom-order.html">Design a custom order</a></div></section>
+
+</main>
+<div id="footer"></div>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/pages.js"></script>
+</body>
+</html>

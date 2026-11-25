@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout – The Beaded Florist</title>
+<meta name="description" content="Handcrafted French beaded flowers made to last. Made in Lahore, Pakistan.">
+<link rel="icon" href="assets/images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="checkout" data-root="">
+<div id="nav"></div>
+<main id="main">
+<div class="wrap page-head"><div class="crumbs"><a href="index.html">Home</a> / <a href="cart.html">Cart</a> / Checkout</div><h1>Checkout</h1><p class="lead">Tell us where to send your order.</p></div>
+<div class="wrap cols" style="padding-top:20px"><form id="cform" novalidate>
+  <div class="notice" id="acct-note" style="margin-bottom:26px"></div>
+  <h2 style="margin-bottom:16px">Delivery details</h2>
+  <div class="row2"><div class="field"><label for="f-name">Full name</label><input id="f-name" placeholder="Your name" autocomplete="name"></div>
+  <div class="field"><label for="f-phone">Phone number</label><input id="f-phone" placeholder="03XX XXXXXXX" autocomplete="tel"></div></div>
+  <div class="field"><label for="f-email">Email (for order updates)</label><input id="f-email" type="email" placeholder="name@example.com" autocomplete="email"></div>
+  <div class="field"><label for="f-address">Delivery address</label><textarea id="f-address" placeholder="House, street, area" autocomplete="street-address"></textarea></div>
+  <div class="row2"><div class="field"><label for="f-city">City</label><input id="f-city" placeholder="Lahore" autocomplete="address-level2"></div>
+  <div class="field"><label for="f-postal">Postal code</label><input id="f-postal" placeholder="54000" autocomplete="postal-code"></div></div>
+  <h2 style="margin:20px 0 16px">Delivery area</h2><div id="areas"></div>
+  <p class="err hidden" id="cerr" role="alert"></p><button class="btn" type="submit">Continue to payment</button>
+</form><aside class="summary" id="sum"></aside></div>
+
+</main>
+<div id="footer"></div>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/pages.js"></script>
+</body>
+</html>
